@@ -1,8 +1,10 @@
 import streamlit as st
 import pickle
 import nltk
+nltk.download('punkt')
 import pandas as pd
 import time
+
 
 from nltk.tokenize import word_tokenize
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
